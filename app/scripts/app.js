@@ -29,7 +29,36 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/chat', {
+        templateUrl: 'views/chat.html',
+        controller: 'ChatCtrl',
+        controllerAs: 'chat'
+      })
+      .when('/pokemon', {
+        templateUrl: 'views/pokemon.html',
+        controller: 'PokemonCtrl',
+        controllerAs: 'pokemon'
+      })
+      .when('/channel', {
+        templateUrl: 'views/channel.html',
+        controller: 'ChannelCtrl',
+        controllerAs: 'channel'
+      })
+      .when('/channel/:channelName', {
+        templateUrl: 'views/stream.html',
+        controller: 'StreamCtrl',
+        controllerAs: 'stream'
+      })
+      .when('/channel/:channelName/chatters', {
+        templateUrl: 'views/chatters.html',
+        controller: 'ChattersCtrl',
+        controllerAs: 'chatters'
+      })
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .constant("appData", {
+    name: "Lorenzo Dashboard",
+    apiUrl: "http://shane.gg"
   });

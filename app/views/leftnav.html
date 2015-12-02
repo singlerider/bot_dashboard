@@ -1,0 +1,11 @@
+<div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav side-nav">
+        <li data-ng-if="data.input">
+          <input type="text" data-ng-model="inputBox" placeholder="{{data.input.placeholder}}">
+          <button type="button" class="btn btn-primary" data-ng-click="data.input.submit(inputBox)">Submit</button>
+        </li>
+        <li data-ng-repeat="link in data.links" >
+            <a data-ng-href="{{link.href}}" >{{link.text}}</a>
+        </li>
+    </ul>
+</div>
