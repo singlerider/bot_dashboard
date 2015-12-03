@@ -5,6 +5,10 @@ version 0.14.0.
 
 ## Build & development
 
+You'll need Compass before grunt will run. On a Mac, run:
+
+`sudo gem install compass`.
+
 Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
