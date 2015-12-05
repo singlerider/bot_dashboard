@@ -52,8 +52,15 @@ angular.module('App')
                 },
                 links: [
                   {
+                    text: 'Stream',
+                    href: '/#/channel/stream',
+                    hide: function(){
+                      return !channelNameExists();
+                    }
+                  },
+                  {
                     text: 'Chatters',
-                    href: '/#/channel/' + getChannelName() + '/chatters',
+                    href: '/#/channel/chatters',
                     hide: function(){
                       return !channelNameExists();
                     }
@@ -65,13 +72,7 @@ angular.module('App')
               href: '/#/pokemon',
               sideNav: {
                 links: [
-                  {
-                    text: 'Chatters',
-                    href: '/#/channel/' + $routeParams.channelName + '/chatters',
-                    show: function(){
-                      return channelNameExists();
-                    }
-                  }
+
                 ]
               }
             }

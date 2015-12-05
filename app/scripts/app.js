@@ -50,7 +50,7 @@ angular
         controller: 'StreamCtrl',
         controllerAs: 'stream'
       })
-      .when('/channel/:channelName/chatters', {
+      .when('/channel/chatters', {
         templateUrl: 'views/chatters.html',
         controller: 'ChattersCtrl',
         controllerAs: 'chatters'

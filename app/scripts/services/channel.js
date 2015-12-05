@@ -14,14 +14,17 @@ angular.module('App')
     return {
       getChatters: function(){
         var defer = $q.defer();
-
-        $http.get(appData.apiUrl + '/api/chatters/' + $routeParams.channelName )
-          .success(function(res){
-            defer.resolve(res);
-          })
-          .error(function(err){
-            defer.reject(err);
-          });
+        if(localStorageService.get('selectedChannelName')){
+          $http.get(appData.apiUrl + '/api/chatters/' + localStorageService.get('selectedChannelName') )
+            .success(function(res){
+              defer.resolve(res);
+            })
+            .error(function(err){
+              defer.reject(err);
+            });
+        } else {
+          defer.reject('No channel selected');
+        }
 
         return defer.promise;
       },
