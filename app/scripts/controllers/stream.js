@@ -8,7 +8,16 @@
  * Controller of the App
  */
 angular.module('App')
-  .controller('StreamCtrl', function ($scope, $routeParams, $timeout, channel) {
+  .controller('StreamCtrl', function ($scope, $routeParams, $timeout, $interval, channel) {
+
+    $interval(function(){
+      if($scope && $scope.channelName && channel.getActiveChannel()){
+        if($scope.channelName !== channel.getActiveChannel()){
+          $scope.channelName = channel.getActiveChannel();
+          $scope.embed();
+        }
+      }
+    }, 500);
 
     var $ = angular.element;
     function startLoad(){
@@ -26,7 +35,7 @@ angular.module('App')
       return 'http://player.twitch.tv/?channel="' + $scope.channelName + '"';
     };
     $scope.embed = function(){
-      var chat = $('<iframe src="http://www.twitch.tv/lifewithlaughs/chat?popout=" frameborder="0" scrolling="no" height="500" width="350"></iframe>');
+      var chat = $('<iframe src="http://www.twitch.tv/' + $scope.channelName + '/chat?popout=" frameborder="0" scrolling="no" height="500" width="350"></iframe>');
       var stream = $('<iframe src="http://player.twitch.tv/?channel=' + $scope.channelName + '" frameborder="0" scrolling="no" height="378" width="620"></iframe><a href="http://www.twitch.tv/' + $scope.channelName + '?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from ' + $scope.channelName + ' on www.twitch.tv</a>');
       console.log('stream: ', stream);
 
