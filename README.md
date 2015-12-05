@@ -14,8 +14,6 @@ You'll need Compass before grunt will run. On a Mac, run:
 
 `sudo gem install compass`.
 
-Run `grunt` for building and `grunt serve` for preview.
-
 `brew install node`
 
 `npm install -g grunt-cli yo generator-angular bower`
