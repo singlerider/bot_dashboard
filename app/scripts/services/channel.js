@@ -8,7 +8,7 @@
  * Factory in the App.
  */
 angular.module('App')
-  .factory('channel', function ($location, appData, $http, $q, $routeParams) {
+  .factory('channel', function ($location, appData, $http, $q, $routeParams, localStorageService) {
 
     // Public API here
     return {
@@ -25,9 +25,11 @@ angular.module('App')
 
         return defer.promise;
       },
-      setActiveChannel: function(link){
-        console.log('SetActiveChannel: ', '/channel/' + link);
-        $location.path('/channel/' + link);
+      setActiveChannel: function(channelName){
+        localStorageService.set('selectedChannelName', channelName);
+      },
+      getActiveChannel: function(){
+        return localStorageService.get('selectedChannelName');
       }
     };
   });

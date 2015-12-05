@@ -8,10 +8,11 @@
  * Controller of the App
  */
 angular.module('App')
-  .controller('StreamCtrl', function ($scope, $routeParams, $timeout) {
-    $scope.channelName = $routeParams.channelName;
+  .controller('StreamCtrl', function ($scope, $routeParams, $timeout, channel) {
+
     var $ = angular.element;
     function startLoad(){
+      $scope.channelName = channel.getActiveChannel();
       if(!$scope.channelName){
         console.log('ChannelName N/A');
         $timeout(function(){

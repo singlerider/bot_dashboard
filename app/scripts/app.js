@@ -15,7 +15,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'LocalStorageModule'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -44,7 +45,7 @@ angular
         controller: 'ChannelCtrl',
         controllerAs: 'channel'
       })
-      .when('/channel/:channelName', {
+      .when('/channel/stream', {
         templateUrl: 'views/stream.html',
         controller: 'StreamCtrl',
         controllerAs: 'stream'
