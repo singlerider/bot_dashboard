@@ -1,11 +1,21 @@
 <% content_for :title do %>My super sweet dashboard<% end %>
 <div class="gridster">
   <ul>
+    <!-- http://player.twitch.tv/?channel=curvyllama
+    http://www.twitch.tv/curvyllama/chat?popout= -->
    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="iframeId1" data-view="Iframe" data-src="http://player.twitch.tv/?channel=curvyllama"></div>
+      <div data-id="stream" data-view="Iframe" data-src=""></div>
    </li>
    <li data-row="1" data-col="3" data-sizex="1" data-sizey="2">
-      <div data-id="iframeId2" data-view="Iframe" data-src="http://www.twitch.tv/curvyllama/chat?popout="></div>
+        <div data-id="chat" data-view="Iframe" data-src=""></div>
    </li>
+   <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+       <div data-id="pokemon" data-view="List" data-unordered="true" data-title="Available Pokemon"></div>
+       <i class="icon-check-sign icon-background"></i>
+  </li>
+  <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="messages" data-view="List" data-unordered="true" data-title="Recent Messages"></div>
+      <i class="icon-check-sign icon-background"></i>
+ </li>
   </ul>
 </div>
