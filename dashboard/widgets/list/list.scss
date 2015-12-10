@@ -11,7 +11,58 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
 // ----------------------------------------------------------------------------
 // Widget-list styles
 // ----------------------------------------------------------------------------
-.widget-list {
+.messages {
+
+  background-color: $background-color;
+  vertical-align: top;
+
+  .title {
+    color: $title-color;
+  }
+
+  ol, ul {
+    margin: 0;
+    text-align: left;
+    color: $label-color;
+    overflow: scroll;
+    width: 550px;
+    height: 250px;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .list-nostyle {
+    list-style: none;
+  }
+
+  .label {
+    color: $label-color;
+  }
+
+  .value {
+    margin-left: 12px;
+    font-weight: 600;
+    color: $value-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+}
+
+.pokemon {
+
 
   background-color: $background-color;
   vertical-align: top;
@@ -43,7 +94,6 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   }
 
   .value {
-    float: right;
     margin-left: 12px;
     font-weight: 600;
     color: $value-color;
@@ -56,5 +106,4 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   .more-info {
     color: $moreinfo-color;
   }
-
 }

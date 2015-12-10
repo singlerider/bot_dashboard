@@ -11,6 +11,7 @@ $iframe-background:  darken($background-color, 25%);
   background-color: $background-color;
   padding: 0px !important;
   margin: 0 !important;
+  outline-color: $background-color;
 
   iframe {
     width: 100%;
