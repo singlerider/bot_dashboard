@@ -49,7 +49,8 @@
       'com.module.products',
       'com.module.sandbox',
       'com.module.settings',
-      'com.module.users'
+      'com.module.users',
+      'com.module.stream'
     ])
     .run(function ($rootScope, $cookies, gettextCatalog) {
 

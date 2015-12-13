@@ -13,7 +13,7 @@ module.exports = function(app) {
     var settings = [{
       type: 'string',
       key: 'appName',
-      value: 'LoopBack Admin'
+      value: 'Lorenzotherobot'
     }, {
       type: 'select',
       key: 'appTheme',
