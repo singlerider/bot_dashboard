@@ -43,7 +43,7 @@ msgstr "Actions"
 #: client/app/modules/events/views/main.html:2
 #: client/app/modules/notes/views/main.html:2
 #: client/app/modules/pages/views/main.html:2
-#: client/app/modules/posts/views/main.html:2
+#: client/app/modules/messages/views/main.html:2
 #: client/app/modules/settings/views/main.html:2
 #: client/app/modules/users/views/main.html:3
 msgid "Add"
@@ -65,7 +65,7 @@ msgstr "Ajoutez un évènement"
 msgid "Add a new note"
 msgstr "Ajoutez une note"
 
-#: client/app/modules/posts/views/form.html:4
+#: client/app/modules/messages/views/form.html:4
 msgid "Add a new post"
 msgstr "Ajoutez un post"
 
@@ -85,7 +85,7 @@ msgstr "Ajoutez une produit à la catégorie"
 #: client/app/modules/files/controllers/files.ctrl.js:13
 #: client/app/modules/notes/services/notes.service.js:26
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/controllers/posts.ctrl.js:25
+#: client/app/modules/messages/controllers/messages.ctrl.js:25
 #: client/app/modules/products/controllers/products.ctrl.js:37
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:25
@@ -141,7 +141,7 @@ msgstr "Cliquer <a href=\"\" ui-sref=\"^.add\">ici</a> pour ajouter une note!"
 msgid "Click <a href=\"\" ui-sref=\"^.add\">here</a> to add a page!"
 msgstr "Cliquer <a href=\"\" ui-sref=\"^.add\">ici</a> pour ajouter une page!"
 
-#: client/app/modules/posts/views/list.html:26
+#: client/app/modules/messages/views/list.html:26
 msgid "Click <a href=\"\" ui-sref=\"^.add\">here</a> to add a post!"
 msgstr "Cliquer <a href=\"\" ui-sref=\"^.add\">ici</a> pour ajouter un post!"
 
@@ -170,7 +170,7 @@ msgstr ""
 msgid "Confirm Password"
 msgstr "Confirmez le mot de passe"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:48
+#: client/app/modules/messages/controllers/messages.ctrl.js:48
 msgid "Content"
 msgstr "Contenu"
 
@@ -190,7 +190,7 @@ msgstr "La note n'a pu être ajoutée"
 msgid "Could not add page!"
 msgstr "La page n'a pu être ajoutée"
 
-#: client/app/modules/posts/views/form.html:12
+#: client/app/modules/messages/views/form.html:12
 msgid "Could not add post!"
 msgstr "Le post n'a pu être ajouté"
 
@@ -227,7 +227,7 @@ msgstr "Détruire la catégorie"
 #: client/app/modules/files/controllers/files.ctrl.js:13
 #: client/app/modules/notes/services/notes.service.js:26
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/controllers/posts.ctrl.js:25
+#: client/app/modules/messages/controllers/messages.ctrl.js:25
 #: client/app/modules/products/controllers/products.ctrl.js:37
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:25
@@ -261,7 +261,7 @@ msgstr "Modifier l'évènement"
 msgid "Edit note"
 msgstr "Modifier la note"
 
-#: client/app/modules/posts/views/form.html:5
+#: client/app/modules/messages/views/form.html:5
 msgid "Edit post"
 msgstr "Modifier le post"
 
@@ -306,7 +306,7 @@ msgstr "La note n'a pu être effacée"
 msgid "Error deleting page"
 msgstr "La page ne peux être effacée"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:31
+#: client/app/modules/messages/controllers/messages.ctrl.js:31
 msgid "Error deleting post"
 msgstr "Le post ne peux être effacé"
 
@@ -422,9 +422,9 @@ msgstr "Gérez vos fichiers ici!"
 msgid "Manage your notes here!"
 msgstr "Gérez vos notes ici!"
 
-#: client/app/modules/posts/views/main.html:1
-msgid "Manage your posts here!"
-msgstr "Gérez vos posts ici!"
+#: client/app/modules/messages/views/main.html:1
+msgid "Manage your messages here!"
+msgstr "Gérez vos messages ici!"
 
 #: client/app/modules/products/views/main.html:1
 msgid "Manage your products here!"
@@ -512,17 +512,17 @@ msgstr "Mot de passe"
 msgid "Percentage"
 msgstr "Pourcentage"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:27
+#: client/app/modules/messages/controllers/messages.ctrl.js:27
 msgid "Post deleted"
 msgstr "Post effacé"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:67
+#: client/app/modules/messages/controllers/messages.ctrl.js:67
 msgid "Post saved"
 msgstr "Post enregistré"
 
-#: client/app/modules/posts/config/posts.config.js:4
-#: client/app/modules/posts/config/posts.config.js:7
-#: client/app/modules/posts/views/main.html:1
+#: client/app/modules/messages/config/messages.config.js:4
+#: client/app/modules/messages/config/messages.config.js:7
+#: client/app/modules/messages/views/main.html:1
 msgid "Posts"
 msgstr "Post"
 
@@ -581,7 +581,7 @@ msgid "Roles"
 msgstr "Rôles"
 
 #: client/app/modules/events/controllers/events.ctrl.js:118
-#: client/app/modules/posts/controllers/posts.ctrl.js:62
+#: client/app/modules/messages/controllers/messages.ctrl.js:62
 #: client/app/modules/products/controllers/categories.ctrl.js:29
 #: client/app/modules/products/controllers/products.ctrl.js:96
 #: client/app/modules/users/controllers/profile.ctrl.js:36
@@ -638,7 +638,7 @@ msgstr "Rester connecté"
 #: client/app/modules/events/views/form.html:20
 #: client/app/modules/events/views/form.html:28
 #: client/app/modules/notes/views/form.html:17
-#: client/app/modules/posts/views/form.html:17
+#: client/app/modules/messages/views/form.html:17
 #: client/app/modules/products/views/categoryform.html:13
 #: client/app/modules/products/views/form.html:17
 #: client/app/modules/settings/views/form.html:21
@@ -666,9 +666,9 @@ msgstr "Il n'y a pas de notes"
 msgid "There are no pages"
 msgstr "Il n'y a pas de pages"
 
-#: client/app/modules/posts/views/list.html:23
-msgid "There are no posts"
-msgstr "Il n'y a pas de posts"
+#: client/app/modules/messages/views/list.html:23
+msgid "There are no messages"
+msgstr "Il n'y a pas de messages"
 
 #: client/app/modules/products/views/list.html:33
 msgid "There are no products in this category!"
@@ -687,7 +687,7 @@ msgid "This user is save!"
 msgstr "L'utilisateur est enregistré"
 
 #: client/app/modules/notes/controllers/notes.ctrl.js:10
-#: client/app/modules/posts/controllers/posts.ctrl.js:42
+#: client/app/modules/messages/controllers/messages.ctrl.js:42
 msgid "Title"
 msgstr "Titre"
 
@@ -826,15 +826,15 @@ msgstr "La page est enregistrée!"
 msgid "Your passwords need to match"
 msgstr "Les mots de passe ne sont pas identiques"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:27
+#: client/app/modules/messages/controllers/messages.ctrl.js:27
 msgid "Your post is deleted!"
 msgstr "Le post est effacé!"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:31
+#: client/app/modules/messages/controllers/messages.ctrl.js:31
 msgid "Your post is not deleted:"
 msgstr "Le post n'a pu être effacé:"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:67
+#: client/app/modules/messages/controllers/messages.ctrl.js:67
 msgid "Your post is safe with us!"
 msgstr "Le post est enregistré!"
 
@@ -892,7 +892,7 @@ msgstr "adresse courriel"
 msgid "here"
 msgstr "ici"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:54
+#: client/app/modules/messages/controllers/messages.ctrl.js:54
 msgid "image"
 msgstr "image"
 

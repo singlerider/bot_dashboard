@@ -34,7 +34,7 @@ msgstr ""
 #: client/app/modules/events/views/main.html:2
 #: client/app/modules/notes/views/main.html:2
 #: client/app/modules/pages/views/main.html:2
-#: client/app/modules/posts/views/main.html:2
+#: client/app/modules/messages/views/main.html:2
 #: client/app/modules/settings/views/main.html:2
 #: client/app/modules/users/views/main.html:3
 msgid "Add"
@@ -60,7 +60,7 @@ msgstr ""
 msgid "Add a new note"
 msgstr ""
 
-#: client/app/modules/posts/views/form.html:4
+#: client/app/modules/messages/views/form.html:4
 msgid "Add a new post"
 msgstr ""
 
@@ -85,7 +85,7 @@ msgstr ""
 #: client/app/modules/files/controllers/files.ctrl.js:14
 #: client/app/modules/notes/services/notes.service.js:31
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/services/posts.service.js:22
+#: client/app/modules/messages/services/messages.service.js:22
 #: client/app/modules/products/controllers/products.ctrl.js:42
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:26
@@ -128,7 +128,7 @@ msgstr ""
 msgid "Change it here!"
 msgstr ""
 
-#: client/app/modules/posts/views/list.html:59
+#: client/app/modules/messages/views/list.html:59
 msgid ""
 "Click <a href=\"\" ui-sref=\"^.add\">here</a>\n"
 "      to add a post!"
@@ -162,7 +162,7 @@ msgstr ""
 msgid "Confirm Password"
 msgstr ""
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:39
+#: client/app/modules/messages/controllers/messages.ctrl.js:39
 msgid "Content"
 msgstr ""
 
@@ -182,7 +182,7 @@ msgstr ""
 msgid "Could not add page!"
 msgstr ""
 
-#: client/app/modules/posts/views/form.html:12
+#: client/app/modules/messages/views/form.html:12
 msgid "Could not add post!"
 msgstr ""
 
@@ -216,7 +216,7 @@ msgstr ""
 #: client/app/modules/files/controllers/files.ctrl.js:15
 #: client/app/modules/notes/services/notes.service.js:32
 #: client/app/modules/pages/controllers/pages.ctrl.js:34
-#: client/app/modules/posts/services/posts.service.js:23
+#: client/app/modules/messages/services/messages.service.js:23
 #: client/app/modules/products/controllers/products.ctrl.js:43
 #: client/app/modules/settings/controllers/settings.ctrl.js:29
 #: client/app/modules/users/controllers/users.ctrl.js:27
@@ -250,7 +250,7 @@ msgstr ""
 msgid "Edit note"
 msgstr ""
 
-#: client/app/modules/posts/views/form.html:5
+#: client/app/modules/messages/views/form.html:5
 msgid "Edit post"
 msgstr ""
 
@@ -293,7 +293,7 @@ msgid "Error deleting event"
 msgstr ""
 
 #: client/app/modules/core/helpers/FormHelper.js:33
-#: client/app/modules/posts/services/posts.service.js:32
+#: client/app/modules/messages/services/messages.service.js:32
 msgid "Error deleting item:"
 msgstr ""
 
@@ -383,7 +383,7 @@ msgid "Home"
 msgstr ""
 
 #: client/app/modules/core/helpers/FormHelper.js:27
-#: client/app/modules/posts/services/posts.service.js:26
+#: client/app/modules/messages/services/messages.service.js:26
 msgid "Item deleted"
 msgstr ""
 
@@ -420,8 +420,8 @@ msgstr ""
 msgid "Manage your notes here!"
 msgstr ""
 
-#: client/app/modules/posts/views/main.html:1
-msgid "Manage your posts here!"
+#: client/app/modules/messages/views/main.html:1
+msgid "Manage your messages here!"
 msgstr ""
 
 #: client/app/modules/products/views/main.html:1
@@ -478,7 +478,7 @@ msgid "Notes"
 msgstr ""
 
 #: client/app/modules/core/helpers/FormHelper.js:32
-#: client/app/modules/posts/services/posts.service.js:31
+#: client/app/modules/messages/services/messages.service.js:31
 msgid "Oops"
 msgstr ""
 
@@ -511,13 +511,13 @@ msgstr ""
 msgid "Password"
 msgstr ""
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:56
+#: client/app/modules/messages/controllers/messages.ctrl.js:56
 msgid "Post saved"
 msgstr ""
 
-#: client/app/modules/posts/config/posts.config.js:4
-#: client/app/modules/posts/config/posts.config.js:8
-#: client/app/modules/posts/views/main.html:1
+#: client/app/modules/messages/config/messages.config.js:4
+#: client/app/modules/messages/config/messages.config.js:8
+#: client/app/modules/messages/views/main.html:1
 msgid "Posts"
 msgstr ""
 
@@ -576,7 +576,7 @@ msgid "Roles"
 msgstr ""
 
 #: client/app/modules/events/controllers/events.ctrl.js:126
-#: client/app/modules/posts/controllers/posts.ctrl.js:51
+#: client/app/modules/messages/controllers/messages.ctrl.js:51
 #: client/app/modules/products/controllers/categories.ctrl.js:30
 #: client/app/modules/users/controllers/profile.ctrl.js:36
 #: client/app/modules/users/controllers/users.ctrl.js:91
@@ -632,7 +632,7 @@ msgstr ""
 #: client/app/modules/events/views/form.html:20
 #: client/app/modules/events/views/form.html:28
 #: client/app/modules/notes/views/form.html:17
-#: client/app/modules/posts/views/form.html:17
+#: client/app/modules/messages/views/form.html:17
 #: client/app/modules/products/views/categoryform.html:13
 #: client/app/modules/settings/views/form.html:21
 msgid "Submit"
@@ -676,7 +676,7 @@ msgid "This user is save!"
 msgstr ""
 
 #: client/app/modules/notes/controllers/notes.ctrl.js:10
-#: client/app/modules/posts/controllers/posts.ctrl.js:34
+#: client/app/modules/messages/controllers/messages.ctrl.js:34
 msgid "Title"
 msgstr ""
 
@@ -788,7 +788,7 @@ msgid "Your file is deleted!"
 msgstr ""
 
 #: client/app/modules/core/helpers/FormHelper.js:28
-#: client/app/modules/posts/services/posts.service.js:27
+#: client/app/modules/messages/services/messages.service.js:27
 msgid "Your item has been deleted!"
 msgstr ""
 
@@ -820,7 +820,7 @@ msgstr ""
 msgid "Your passwords need to match"
 msgstr ""
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:57
+#: client/app/modules/messages/controllers/messages.ctrl.js:57
 msgid "Your post is safe with us!"
 msgstr ""
 
@@ -873,7 +873,7 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:44
+#: client/app/modules/messages/controllers/messages.ctrl.js:44
 msgid "image"
 msgstr ""
 

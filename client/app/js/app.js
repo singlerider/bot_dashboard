@@ -45,7 +45,7 @@
       'com.module.files',
       'com.module.notes',
       'com.module.pages',
-      'com.module.posts',
+      'com.module.messages',
       'com.module.products',
       'com.module.sandbox',
       'com.module.settings',

@@ -39,7 +39,7 @@
           $scope.faker.push(fake);
           Post.create(fake);
         }
-        CoreService.toastSuccess('Created ' + $scope.records + ' posts');
+        CoreService.toastSuccess('Created ' + $scope.records + ' messages');
       };
 
       $scope.fakePages = function () {

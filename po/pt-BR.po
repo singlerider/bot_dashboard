@@ -37,7 +37,7 @@ msgstr "Adicionar nova configuração"
 #: client/app/modules/events/controllers/events.ctrl.js:49
 #: client/app/modules/files/controllers/files.ctrl.js:13
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/controllers/posts.ctrl.js:25
+#: client/app/modules/messages/controllers/messages.ctrl.js:25
 #: client/app/modules/products/controllers/products.ctrl.js:37
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:25
@@ -96,7 +96,7 @@ msgstr "Painel de Controle"
 #: client/app/modules/events/controllers/events.ctrl.js:49
 #: client/app/modules/files/controllers/files.ctrl.js:13
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/controllers/posts.ctrl.js:25
+#: client/app/modules/messages/controllers/messages.ctrl.js:25
 #: client/app/modules/products/controllers/products.ctrl.js:37
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:25
@@ -135,7 +135,7 @@ msgstr ""
 msgid "Error deleting page"
 msgstr ""
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:31
+#: client/app/modules/messages/controllers/messages.ctrl.js:31
 msgid "Error deleting post"
 msgstr ""
 
@@ -280,15 +280,15 @@ msgstr "Páginas"
 msgid "Password"
 msgstr "Senha"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:27
+#: client/app/modules/messages/controllers/messages.ctrl.js:27
 msgid "Post deleted"
 msgstr ""
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:67
+#: client/app/modules/messages/controllers/messages.ctrl.js:67
 msgid "Post saved"
 msgstr ""
 
-#: client/app/modules/posts/config/posts.config.js:7
+#: client/app/modules/messages/config/messages.config.js:7
 msgid "Posts"
 msgstr "Posts"
 
@@ -506,15 +506,15 @@ msgstr ""
 msgid "Your page is safe with us!"
 msgstr ""
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:27
+#: client/app/modules/messages/controllers/messages.ctrl.js:27
 msgid "Your post is deleted!"
 msgstr ""
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:31
+#: client/app/modules/messages/controllers/messages.ctrl.js:31
 msgid "Your post is not deleted:"
 msgstr ""
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:67
+#: client/app/modules/messages/controllers/messages.ctrl.js:67
 msgid "Your post is safe with us!"
 msgstr ""
 

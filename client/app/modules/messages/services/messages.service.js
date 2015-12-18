@@ -1,9 +1,9 @@
 (function () {
   'use strict';
   angular
-    .module('com.module.posts')
-    .service('PostsService', function (CoreService, Post, gettextCatalog) {
-      this.getPosts = function () {
+    .module('com.module.messages')
+    .service('MessagesService', function (CoreService, Post, gettextCatalog) {
+      this.getMessages = function () {
         return Post.find({
           filter: {
             order: 'created DESC'

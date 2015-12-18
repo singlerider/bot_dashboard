@@ -38,7 +38,7 @@ msgstr "Voeg een instelling toe"
 #: client/app/modules/events/controllers/events.ctrl.js:49
 #: client/app/modules/files/controllers/files.ctrl.js:13
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/controllers/posts.ctrl.js:25
+#: client/app/modules/messages/controllers/messages.ctrl.js:25
 #: client/app/modules/products/controllers/products.ctrl.js:37
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:25
@@ -97,7 +97,7 @@ msgstr "Dashboard"
 #: client/app/modules/events/controllers/events.ctrl.js:49
 #: client/app/modules/files/controllers/files.ctrl.js:13
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/controllers/posts.ctrl.js:25
+#: client/app/modules/messages/controllers/messages.ctrl.js:25
 #: client/app/modules/products/controllers/products.ctrl.js:37
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:25
@@ -136,7 +136,7 @@ msgstr "Fout bij het verwijderen van het evenement"
 msgid "Error deleting page"
 msgstr "Fout bij het verwijderen van de pagina"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:31
+#: client/app/modules/messages/controllers/messages.ctrl.js:31
 msgid "Error deleting post"
 msgstr "Fout bij het verwijderen van de post"
 
@@ -281,15 +281,15 @@ msgstr "Pagina's"
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:27
+#: client/app/modules/messages/controllers/messages.ctrl.js:27
 msgid "Post deleted"
 msgstr "Post verwijderd"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:67
+#: client/app/modules/messages/controllers/messages.ctrl.js:67
 msgid "Post saved"
 msgstr "Post opgeslagen"
 
-#: client/app/modules/posts/config/posts.config.js:7
+#: client/app/modules/messages/config/messages.config.js:7
 msgid "Posts"
 msgstr "Posts"
 
@@ -507,15 +507,15 @@ msgstr "De pagina is niet verwijderd"
 msgid "Your page is safe with us!"
 msgstr "De pagina is veilig opgeslagen"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:27
+#: client/app/modules/messages/controllers/messages.ctrl.js:27
 msgid "Your post is deleted!"
 msgstr "De post is verwijderd"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:31
+#: client/app/modules/messages/controllers/messages.ctrl.js:31
 msgid "Your post is not deleted:"
 msgstr "De post is niet verwijderd"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:67
+#: client/app/modules/messages/controllers/messages.ctrl.js:67
 msgid "Your post is safe with us!"
 msgstr "De post is veilig opgeslagen"
 

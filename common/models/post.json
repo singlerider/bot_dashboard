@@ -1,6 +1,6 @@
 {
   "name": "Post",
-  "plural": "posts",
+  "plural": "messages",
   "base": "AppModel",
   "properties": {
     "title": {

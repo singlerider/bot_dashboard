@@ -42,7 +42,7 @@ msgstr "Acciones"
 #: client/app/modules/events/views/main.html:2
 #: client/app/modules/notes/views/main.html:2
 #: client/app/modules/pages/views/main.html:2
-#: client/app/modules/posts/views/main.html:2
+#: client/app/modules/messages/views/main.html:2
 #: client/app/modules/settings/views/main.html:2
 #: client/app/modules/users/views/main.html:3
 msgid "Add"
@@ -68,7 +68,7 @@ msgstr "Añadir un nuevo evento"
 msgid "Add a new note"
 msgstr "Añadir nueva nota"
 
-#: client/app/modules/posts/views/form.html:4
+#: client/app/modules/messages/views/form.html:4
 msgid "Add a new post"
 msgstr "Añadir una nueva publicación"
 
@@ -93,7 +93,7 @@ msgstr "¡Todo acerca de esta aplicación!"
 #: client/app/modules/files/controllers/files.ctrl.js:14
 #: client/app/modules/notes/services/notes.service.js:31
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/services/posts.service.js:22
+#: client/app/modules/messages/services/messages.service.js:22
 #: client/app/modules/products/controllers/products.ctrl.js:42
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:26
@@ -136,7 +136,7 @@ msgstr "Categoria guardada"
 msgid "Change it here!"
 msgstr "¡Cambielo aquí!"
 
-#: client/app/modules/posts/views/list.html:59
+#: client/app/modules/messages/views/list.html:59
 msgid ""
 "Click <a href=\"\" ui-sref=\"^.add\">here</a>\n"
 "      to add a post!"
@@ -185,7 +185,7 @@ msgstr ""
 msgid "Confirm Password"
 msgstr "Confirme Contraseña"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:39
+#: client/app/modules/messages/controllers/messages.ctrl.js:39
 msgid "Content"
 msgstr "Contenido"
 
@@ -205,7 +205,7 @@ msgstr "¡No se pudo añadir la nota!"
 msgid "Could not add page!"
 msgstr "¡No se pudo añadir la pagina!"
 
-#: client/app/modules/posts/views/form.html:12
+#: client/app/modules/messages/views/form.html:12
 msgid "Could not add post!"
 msgstr "¡No se pudo añadir la publicación!"
 
@@ -239,7 +239,7 @@ msgstr "Eliminar categoría"
 #: client/app/modules/files/controllers/files.ctrl.js:15
 #: client/app/modules/notes/services/notes.service.js:32
 #: client/app/modules/pages/controllers/pages.ctrl.js:34
-#: client/app/modules/posts/services/posts.service.js:23
+#: client/app/modules/messages/services/messages.service.js:23
 #: client/app/modules/products/controllers/products.ctrl.js:43
 #: client/app/modules/settings/controllers/settings.ctrl.js:29
 #: client/app/modules/users/controllers/users.ctrl.js:27
@@ -273,7 +273,7 @@ msgstr "Editar evento"
 msgid "Edit note"
 msgstr "Editar nota"
 
-#: client/app/modules/posts/views/form.html:5
+#: client/app/modules/messages/views/form.html:5
 msgid "Edit post"
 msgstr "Editar publicación"
 
@@ -316,7 +316,7 @@ msgid "Error deleting event"
 msgstr "Error al eliminar el evento"
 
 #: client/app/modules/core/helpers/FormHelper.js:33
-#: client/app/modules/posts/services/posts.service.js:32
+#: client/app/modules/messages/services/messages.service.js:32
 msgid "Error deleting item:"
 msgstr "Error al eliminar el elemento:"
 
@@ -406,7 +406,7 @@ msgid "Home"
 msgstr "Principal"
 
 #: client/app/modules/core/helpers/FormHelper.js:27
-#: client/app/modules/posts/services/posts.service.js:26
+#: client/app/modules/messages/services/messages.service.js:26
 msgid "Item deleted"
 msgstr "Elemento eliminado"
 
@@ -443,8 +443,8 @@ msgstr "¡Administre sus archivos aquí!"
 msgid "Manage your notes here!"
 msgstr "¡Administre sus notas aquí!"
 
-#: client/app/modules/posts/views/main.html:1
-msgid "Manage your posts here!"
+#: client/app/modules/messages/views/main.html:1
+msgid "Manage your messages here!"
 msgstr "¡Administre sus publicaciones aquí!"
 
 #: client/app/modules/products/views/main.html:1
@@ -501,7 +501,7 @@ msgid "Notes"
 msgstr "Notas"
 
 #: client/app/modules/core/helpers/FormHelper.js:32
-#: client/app/modules/posts/services/posts.service.js:31
+#: client/app/modules/messages/services/messages.service.js:31
 msgid "Oops"
 msgstr ""
 
@@ -534,13 +534,13 @@ msgstr "Paginas"
 msgid "Password"
 msgstr "Contraseña"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:56
+#: client/app/modules/messages/controllers/messages.ctrl.js:56
 msgid "Post saved"
 msgstr "Publicación guardada"
 
-#: client/app/modules/posts/config/posts.config.js:4
-#: client/app/modules/posts/config/posts.config.js:8
-#: client/app/modules/posts/views/main.html:1
+#: client/app/modules/messages/config/messages.config.js:4
+#: client/app/modules/messages/config/messages.config.js:8
+#: client/app/modules/messages/views/main.html:1
 msgid "Posts"
 msgstr "Publicaciones"
 
@@ -599,7 +599,7 @@ msgid "Roles"
 msgstr ""
 
 #: client/app/modules/events/controllers/events.ctrl.js:126
-#: client/app/modules/posts/controllers/posts.ctrl.js:51
+#: client/app/modules/messages/controllers/messages.ctrl.js:51
 #: client/app/modules/products/controllers/categories.ctrl.js:30
 #: client/app/modules/users/controllers/profile.ctrl.js:36
 #: client/app/modules/users/controllers/users.ctrl.js:91
@@ -655,7 +655,7 @@ msgstr "Mantener sesión"
 #: client/app/modules/events/views/form.html:20
 #: client/app/modules/events/views/form.html:28
 #: client/app/modules/notes/views/form.html:17
-#: client/app/modules/posts/views/form.html:17
+#: client/app/modules/messages/views/form.html:17
 #: client/app/modules/products/views/categoryform.html:13
 #: client/app/modules/settings/views/form.html:21
 msgid "Submit"
@@ -699,7 +699,7 @@ msgid "This user is save!"
 msgstr "¡El usuario esta guardado!"
 
 #: client/app/modules/notes/controllers/notes.ctrl.js:10
-#: client/app/modules/posts/controllers/posts.ctrl.js:34
+#: client/app/modules/messages/controllers/messages.ctrl.js:34
 msgid "Title"
 msgstr "Titulo"
 
@@ -811,7 +811,7 @@ msgid "Your file is deleted!"
 msgstr "¡Tu archivo esta eliminado!"
 
 #: client/app/modules/core/helpers/FormHelper.js:28
-#: client/app/modules/posts/services/posts.service.js:27
+#: client/app/modules/messages/services/messages.service.js:27
 msgid "Your item has been deleted!"
 msgstr "¡Tu elemento ha sido eliminado!"
 
@@ -843,7 +843,7 @@ msgstr "¡Tu pagina esta segura con nosotros!"
 msgid "Your passwords need to match"
 msgstr "Tus contraseñas deben coincidir"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:57
+#: client/app/modules/messages/controllers/messages.ctrl.js:57
 msgid "Your post is safe with us!"
 msgstr "¡Tu publicación esta segura con nosotros!"
 
@@ -896,7 +896,7 @@ msgstr "dd/MM/aaaa"
 msgid "here"
 msgstr "aquí"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:44
+#: client/app/modules/messages/controllers/messages.ctrl.js:44
 msgid "image"
 msgstr "imagen"
 

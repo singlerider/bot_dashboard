@@ -43,7 +43,7 @@ msgstr "Действия"
 #: client/app/modules/events/views/main.html:2
 #: client/app/modules/notes/views/main.html:2
 #: client/app/modules/pages/views/main.html:2
-#: client/app/modules/posts/views/main.html:2
+#: client/app/modules/messages/views/main.html:2
 #: client/app/modules/settings/views/main.html:2
 #: client/app/modules/users/views/main.html:3
 msgid "Add"
@@ -65,7 +65,7 @@ msgstr "Добавить новое событие"
 msgid "Add a new note"
 msgstr "Добавить новое примечание"
 
-#: client/app/modules/posts/views/form.html:4
+#: client/app/modules/messages/views/form.html:4
 msgid "Add a new post"
 msgstr "Добавить новый пост"
 
@@ -85,7 +85,7 @@ msgstr "Добавить продукт в категории"
 #: client/app/modules/files/controllers/files.ctrl.js:13
 #: client/app/modules/notes/services/notes.service.js:26
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/controllers/posts.ctrl.js:25
+#: client/app/modules/messages/controllers/messages.ctrl.js:25
 #: client/app/modules/products/controllers/products.ctrl.js:37
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:25
@@ -143,7 +143,7 @@ msgid "Click <a href=\"\" ui-sref=\"^.add\">here</a> to add a page!"
 msgstr ""
 "Нажмите <a href=\"\" ui-sref=\"^.add\">здесь</a> чтобы добавить страницу!"
 
-#: client/app/modules/posts/views/list.html:26
+#: client/app/modules/messages/views/list.html:26
 msgid "Click <a href=\"\" ui-sref=\"^.add\">here</a> to add a post!"
 msgstr ""
 "Нажмите <a href=\"\" ui-sref=\"^.add\">здесь</a> чтобы добавить пост!"
@@ -173,7 +173,7 @@ msgstr ""
 msgid "Confirm Password"
 msgstr "Подтвердите Пароль"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:48
+#: client/app/modules/messages/controllers/messages.ctrl.js:48
 msgid "Content"
 msgstr "Content"
 
@@ -193,7 +193,7 @@ msgstr "Не удалось добавить примечание!"
 msgid "Could not add page!"
 msgstr "Не удается добавить страницу!"
 
-#: client/app/modules/posts/views/form.html:12
+#: client/app/modules/messages/views/form.html:12
 msgid "Could not add post!"
 msgstr "Не удалось добавить пост!"
 
@@ -230,7 +230,7 @@ msgstr "Удалить категорию"
 #: client/app/modules/files/controllers/files.ctrl.js:13
 #: client/app/modules/notes/services/notes.service.js:26
 #: client/app/modules/pages/controllers/pages.ctrl.js:33
-#: client/app/modules/posts/controllers/posts.ctrl.js:25
+#: client/app/modules/messages/controllers/messages.ctrl.js:25
 #: client/app/modules/products/controllers/products.ctrl.js:37
 #: client/app/modules/settings/controllers/settings.ctrl.js:28
 #: client/app/modules/users/controllers/users.ctrl.js:25
@@ -264,7 +264,7 @@ msgstr "Редактировать мероприятие"
 msgid "Edit note"
 msgstr "Редактировать примечание"
 
-#: client/app/modules/posts/views/form.html:5
+#: client/app/modules/messages/views/form.html:5
 msgid "Edit post"
 msgstr "Редактировать пост"
 
@@ -309,7 +309,7 @@ msgstr "Ошибка удаления примечания"
 msgid "Error deleting page"
 msgstr "Ошибка удаления страницы"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:31
+#: client/app/modules/messages/controllers/messages.ctrl.js:31
 msgid "Error deleting post"
 msgstr "Ошибка удаления поста"
 
@@ -423,8 +423,8 @@ msgstr "Диспетчер ваших файлов здесь!"
 msgid "Manage your notes here!"
 msgstr "Диспетчер ваших примечаний здесь!"
 
-#: client/app/modules/posts/views/main.html:1
-msgid "Manage your posts here!"
+#: client/app/modules/messages/views/main.html:1
+msgid "Manage your messages here!"
 msgstr "Диспетчер ваших постов здесь!"
 
 #: client/app/modules/products/views/main.html:1
@@ -513,17 +513,17 @@ msgstr "Пароль"
 msgid "Percentage"
 msgstr "Процент"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:27
+#: client/app/modules/messages/controllers/messages.ctrl.js:27
 msgid "Post deleted"
 msgstr "Пост удален"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:67
+#: client/app/modules/messages/controllers/messages.ctrl.js:67
 msgid "Post saved"
 msgstr "Пост сохранен"
 
-#: client/app/modules/posts/config/posts.config.js:4
-#: client/app/modules/posts/config/posts.config.js:7
-#: client/app/modules/posts/views/main.html:1
+#: client/app/modules/messages/config/messages.config.js:4
+#: client/app/modules/messages/config/messages.config.js:7
+#: client/app/modules/messages/views/main.html:1
 msgid "Posts"
 msgstr "Посты"
 
@@ -582,7 +582,7 @@ msgid "Roles"
 msgstr "Роли"
 
 #: client/app/modules/events/controllers/events.ctrl.js:118
-#: client/app/modules/posts/controllers/posts.ctrl.js:62
+#: client/app/modules/messages/controllers/messages.ctrl.js:62
 #: client/app/modules/products/controllers/categories.ctrl.js:29
 #: client/app/modules/products/controllers/products.ctrl.js:96
 #: client/app/modules/users/controllers/profile.ctrl.js:36
@@ -639,7 +639,7 @@ msgstr "Оставаться авторизованным"
 #: client/app/modules/events/views/form.html:20
 #: client/app/modules/events/views/form.html:28
 #: client/app/modules/notes/views/form.html:17
-#: client/app/modules/posts/views/form.html:17
+#: client/app/modules/messages/views/form.html:17
 #: client/app/modules/products/views/categoryform.html:13
 #: client/app/modules/products/views/form.html:17
 #: client/app/modules/settings/views/form.html:21
@@ -667,8 +667,8 @@ msgstr "Нет примечания"
 msgid "There are no pages"
 msgstr "Нет страниц"
 
-#: client/app/modules/posts/views/list.html:23
-msgid "There are no posts"
+#: client/app/modules/messages/views/list.html:23
+msgid "There are no messages"
 msgstr "Нет постов"
 
 #: client/app/modules/products/views/list.html:33
@@ -688,7 +688,7 @@ msgid "This user is save!"
 msgstr "Этот пользователь сохранен!"
 
 #: client/app/modules/notes/controllers/notes.ctrl.js:10
-#: client/app/modules/posts/controllers/posts.ctrl.js:42
+#: client/app/modules/messages/controllers/messages.ctrl.js:42
 msgid "Title"
 msgstr "Название"
 
@@ -827,15 +827,15 @@ msgstr "Your page is safe with us!"
 msgid "Your passwords need to match"
 msgstr "Ваши пароли должны совпадать"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:27
+#: client/app/modules/messages/controllers/messages.ctrl.js:27
 msgid "Your post is deleted!"
 msgstr "Ваш пост удален!"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:31
+#: client/app/modules/messages/controllers/messages.ctrl.js:31
 msgid "Your post is not deleted:"
 msgstr "Ваш пост не удален:"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:67
+#: client/app/modules/messages/controllers/messages.ctrl.js:67
 msgid "Your post is safe with us!"
 msgstr "Your post is safe with us!"
 
@@ -893,7 +893,7 @@ msgstr "email"
 msgid "here"
 msgstr "здесь"
 
-#: client/app/modules/posts/controllers/posts.ctrl.js:54
+#: client/app/modules/messages/controllers/messages.ctrl.js:54
 msgid "image"
 msgstr "картинка"
 
