@@ -40,17 +40,10 @@
       'ui.select',
       'com.module.core',
       'com.module.about',
-      'com.module.browser',
-      'com.module.events',
-      'com.module.files',
-      'com.module.notes',
-      'com.module.pages',
+      'com.module.stream',
       'com.module.messages',
-      'com.module.products',
-      'com.module.sandbox',
       'com.module.settings',
-      'com.module.users',
-      'com.module.stream'
+      'com.module.users'
     ])
     .run(function ($rootScope, $cookies, gettextCatalog) {
 
