@@ -3,3 +3,12 @@
   Showing of 'interpolate' filter:
   {{ 'Current version is v%VERSION%.' | interpolate }}
 </p>
+
+<div ng-controller="MessageList">
+    <ul>
+        <li ng-repeat="message in messages.messages">
+            <br/>message: {{messages.message}},
+            <br/>time: {{messages.time}}
+        </li>
+    </ul>
+</div>
