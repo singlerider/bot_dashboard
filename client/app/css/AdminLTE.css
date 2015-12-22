@@ -17,7 +17,7 @@ body {
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
   height: 100%;
-  background: #f9f9f9;
+  background: #1C2F2F;
 }
 a {
   color: #3c8dbc;
@@ -130,6 +130,7 @@ h6,
 .h5,
 .h6 {
   font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
 }
 /* Page Header */
 .page-header {
@@ -529,7 +530,7 @@ header.header .logo {
   text-align: center;
   padding: 0 10px;
   width: 220px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Source Sans Pro', cursive;
   font-weight: 500;
   height: 50px;
   display: block;
@@ -2696,11 +2697,10 @@ Component: timeline
 */
 /* skin-black navbar */
 .skin-black .navbar {
-  background-color: #ffffff;
-  border-bottom: 1px solid #eee;
+  background-color: #1C2F2F;
 }
 .skin-black .navbar .nav a {
-  color: #333333;
+  color: #ffffff;
 }
 .skin-black .navbar .nav > li > a:hover,
 .skin-black .navbar .nav > li > a:active,
@@ -2715,7 +2715,7 @@ Component: timeline
   margin-right: 10px;
 }
 .skin-black .navbar .sidebar-toggle .icon-bar {
-  background: #333333;
+  background: #ffffff;
 }
 .skin-black .navbar .sidebar-toggle:hover .icon-bar {
   background: #999999 !important;
@@ -2733,7 +2733,7 @@ Component: timeline
 }
 /* skin-black content header */
 .skin-black .right-side > .content-header {
-  background: transparent;
+  background: rgb(51, 51, 51);
   box-shadow: none;
 }
 /* Skin-red user panel */
