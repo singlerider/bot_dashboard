@@ -1,14 +1,24 @@
-<p>This is the partial for view 2.</p>
+<p>MESSAGES</p>
 <p>
   Showing of 'interpolate' filter:
   {{ 'Current version is v%VERSION%.' | interpolate }}
 </p>
 
-<div ng-controller="MessageList">
+<form id='userMessageForm' method='get' action='#/messages/' >
+    Username:<br/>
+    <input id="username" type="text" name="username" value="username">
+    <br/>
+    Date:<br/>
+    <input id="username" type="date" name="date-selector">
+    <br/><br/>
+    <input type='submit' name='Submit'/>
+</form>
+
+<div ng-controller="myApp.MessagesCtrl as messages">
     <ul>
         <li ng-repeat="message in messages.messages">
-            <br/>message: {{messages.message}},
-            <br/>time: {{messages.time}}
+            <br/>message: {{message.message}},
+            <br/>time: {{message.time}}
         </li>
     </ul>
 </div>
